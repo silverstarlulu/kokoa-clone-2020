@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,7 +24,7 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
@@ -35,12 +35,7 @@
       </div>
     </header>
 
-    <a id="friends-display-link"
-      ><i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i
-    ></a>
-
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -49,55 +44,62 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Park Yeeun</h4>
-            <h6 class="user-component__subtitle">Always steady</h6>
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__bar">
-        <div class="friends-screen__bar-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar--sm"
-              src="./screenshot/kokoa.JPG"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
+            <div class="user-component__subtitle">
+              <h6 class="user-component__subtitle-text">+82 010-0000-0000</h6>
+              <span class="user-component__subtitle-warning">!</span>
             </div>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
-            </div>
-          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
         </div>
       </div>
-      <div class="friends-screen__bar">
-        <div class="friends-screen__bar-header">
-          <span>Friends</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <a href="#"><i class="far fa-calendar-check"></i></a
+          ><span>Calendar</span>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar--sm"
-              src="./screenshot/dalguk.jpg"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Gang dalguk
-              </h4>
+        <div class="icon-row__icon">
+          <span class="icon-row__icon-notification morebadge"></span>
+          <a href="#"><i class="fas fa-archive"></i></a><span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <a href="#"><i class="far fa-smile"></i></a><span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <a href="#"><i class="fas fa-brush"></i></a><span>Themes</span>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <a href="#"><i class="fas fa-money-check"></i></a><span>Account</span>
+        </div>
+        <div class="icon-row__icon">
+          <a href="#"><i class="far fa-comments"></i></a><span>Openchat</span>
+        </div>
+        <div class="icon-row__icon"></div>
+        <div class="icon-row__icon"></div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
             </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
           </div>
-          <div class="user-component__column">
-            <div></div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-paw"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Kokoa Friends</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-carrot"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Friends Game</span>
           </div>
         </div>
       </div>
@@ -107,7 +109,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
