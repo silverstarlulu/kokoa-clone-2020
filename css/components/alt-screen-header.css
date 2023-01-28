@@ -1,0 +1,8 @@
+.alt-screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  font-size: 32px;
+  font-weight: 600;
+}
