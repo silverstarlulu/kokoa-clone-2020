@@ -32,10 +32,11 @@
   display: flex;
   justify-content: space-between;
   color: var(--gray);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .open-post {
+  margin: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

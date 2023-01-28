@@ -28,3 +28,11 @@
   justify-content: space-between;
   color: var(--gray);
 }
+
+.user-component__list {
+  margin: 10px 0;
+}
+
+.friend-list {
+  margin-bottom: 30px;
+}
