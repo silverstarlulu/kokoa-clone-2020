@@ -36,11 +36,11 @@
 }
 
 .open-post {
-  margin: 20px 0;
+  margin: 40px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .open-post:not(:last-child) {

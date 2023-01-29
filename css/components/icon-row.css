@@ -5,10 +5,17 @@
 
 .icon-row__icon {
   display: flex;
-  width: 80px;
+  width: 130px;
   height: 80px;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+
+.icon-row__icon-notification {
+  position: absolute;
+  top: -30px;
+  left: 85px;
 }
 
 .icon-row__icon i {

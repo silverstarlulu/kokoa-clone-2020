@@ -2,16 +2,6 @@
   margin-top: 35px;
 }
 
-.icon-row__icon {
-  position: relative;
-}
-
-.icon-row__icon-notification {
-  position: absolute;
-  top: -25px;
-  left: 65px;
-}
-
 .more-suggestions {
   margin-top: 50px;
   border-top: var(--main-border);
