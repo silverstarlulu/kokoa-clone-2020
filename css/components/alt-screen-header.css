@@ -5,6 +5,10 @@
   padding: 12px;
   font-size: 32px;
   font-weight: 600;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .alt-screen-header__column {
