@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Gang dalguk - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-screen-header">
+      <div class="alt-screen-header__column">
+        <a href="#" onClick="history.back();">
+          <i class="fas fa-angle-left fa-lg"></i
+        ></a>
+      </div>
+      <div class="alt-screen-header__column">Gang dalguk</div>
+      <div class="alt-screen-header__column">
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="fas fa-bars"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, January 29, 2023</div>
+
+      <div class="message-row">
+        <img src="http://172.16.11.224:5500/screenshot/dalguk.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Gang dalguk</span>
+          <div class="message__info">
+            <span class="message__bubble">
+              Noona~<br />What time are you coming in today?? hehe
+            </span>
+            <span class="message__time"> 16:25 </span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">
+              I think I'll go in early today!!<br />
+              What's going on?
+            </span>
+            <span class="message__time"> 16:43 </span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="http://172.16.11.224:5500/screenshot/dalguk.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Gang dalguk</span>
+          <div class="message__info">
+            <span class="message__bubble">
+              Noona! Buy my snacks when you come ღ
+            </span>
+            <span class="message__time"> 17:15 </span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message." />
+        <i class="far fa-smile fa-2x"></i>
+        <button><i class="fas fa-arrow-up fa-lg"></i></button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

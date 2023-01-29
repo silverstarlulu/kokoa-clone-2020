@@ -6,3 +6,20 @@
   font-size: 32px;
   font-weight: 600;
 }
+
+.alt-screen-header__column {
+  width: 33%;
+}
+
+.alt-screen-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.alt-screen-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-screen-header__column span:not(:first-child) {
+  margin-left: 20px;
+}
